@@ -19,6 +19,9 @@ sections:
   templates:
   - landing-page
   - default
+- type: document
+  path: _data/information.yml
+  label: Contact Information
 - type: directory
   path: _projects
   label: Projects
@@ -27,9 +30,6 @@ sections:
   new_doc_ext: ipynb
   templates:
   - project
-- type: document
-  path: _data/information.yml
-  label: Contact Information
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
